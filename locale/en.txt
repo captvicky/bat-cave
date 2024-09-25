@@ -1,0 +1,54 @@
+#: locale=en
+
+## Action
+
+### URL
+LinkBehaviour_95347A1C_855F_0C9C_41DA_D8C5635B7C3D.source = https://guild.xyz/wbc
+PopupWebFrameBehaviour_29009BE5_0A3E_ED93_4199_FC05E27AC247.url = https://sketchfab.com/models/0499c28ce5e8489a8e8777532d4940f2/embed?ui_theme=dark
+PopupWebFrameBehaviour_2AA1731F_0A27_BEB0_4188_83F06901235C.url = https://sketchfab.com/models/1844c62f533e45a5bcabf6cda6c6e1dd/embed?ui_theme=dark
+PopupWebFrameBehaviour_2B5BF246_0A3A_9E91_41A4_0E05B2852BA5.url = https://sketchfab.com/models/30c9ee3e835b484cb3a2a5cf856914ad/embed
+PopupWebFrameBehaviour_2BDA8F4D_0A3B_A693_4198_A11412F2A319.url = https://sketchfab.com/models/30c9ee3e835b484cb3a2a5cf856914ad/embed
+PopupWebFrameBehaviour_2C17C393_0A26_9DB7_417D_06FC6A9947AC.url = https://sketchfab.com/models/a718bf0fce4f44d8a8f38b7a1f223577/embed
+PopupWebFrameBehaviour_2F2E7386_0A3A_9D91_4196_1229E9E72531.url = https://sketchfab.com/models/abea4cdb296f4fafab03a404e515c109/embed
+PopupWebFrameBehaviour_2C20CEB8_0A3A_A7F1_4199_9DBF66DA43F1.url = https://sketchfab.com/models/abea4cdb296f4fafab03a404e515c109/embed
+PopupWebFrameBehaviour_2CB03389_0A2A_9D93_41A2_7471271E4CDB.url = https://sketchfab.com/models/abea4cdb296f4fafab03a404e515c109/embed
+LinkBehaviour_157AA11E_0A2A_9AB0_41A2_A24B15E7EC6F.source = https://worldblockchainclub.com/
+LinkBehaviour_144210E5_0A27_9B93_418E_40F6D561FC7D.source = https://worldblockchainclub.com/
+
+## Media
+
+### Audio
+audiores_18D8CE36_09FE_A6F1_41A3_71C3C4F0B106.mp3Url = media/audio_19800141_09FE_FA93_4185_AF632AD4D6C4_en.mp3
+
+### Title
+panorama_F5638B30_FEFF_BC6F_41D8_8F918BCEF443.label = 1
+panorama_F4C3E063_FEFF_CCF1_41E9_285FF2EDFD93.label = 2
+panorama_F4C7B324_FEFF_CC77_41E1_A09BA5415B1A.label = 3
+panorama_027EDA6E_09D9_6E91_41A1_099728BFC1A0.label = basecamp1
+panorama_0392FF20_09D9_6691_4180_B0C0EE0EF7BE.label = basecamp2
+panorama_03905338_09D9_7EF1_4196_432AAC8059FC.label = basecamp3
+panorama_03907685_09D9_6793_4197_538823C063C8.label = basecamp4
+panorama_03903A52_09D9_6EB1_416A_44A017636D25.label = basecamp5
+panorama_03909CEF_09D9_6B6F_41A2_FCCD87722225.label = basecamp6
+panorama_03904F9D_09D9_65B3_4169_F4CDC272371C.label = basecamp7
+panorama_0393824B_09DA_9E97_4167_1CEFF0E7BDAC.label = basecamp8
+panorama_0393E4F9_09DA_9B73_41A2_498E8DB7B9EB.label = basecamp9
+video_12C4C5FC_09DB_A571_419A_B1459EA79FB7.label = cave keluar
+video_04F6408B_09D9_9B97_419A_7F34675BAEB4.label = video cave gate
+
+### Video
+videolevel_94DBB131_8569_7CA4_41E0_104F862CA097.url = media/video_04F6408B_09D9_9B97_419A_7F34675BAEB4_en.m3u8
+videolevel_94DC4131_8569_7CA4_41D2_96A9E0EED1EF.url = media/video_04F6408B_09D9_9B97_419A_7F34675BAEB4_en.mp4
+videolevel_94DC4131_8569_7CA4_41D2_96A9E0EED1EF.posterURL = media/video_04F6408B_09D9_9B97_419A_7F34675BAEB4_poster_en.jpg
+videolevel_94DBB131_8569_7CA4_41E0_104F862CA097.posterURL = media/video_04F6408B_09D9_9B97_419A_7F34675BAEB4_poster_en.jpg
+videolevel_94DB70FD_8569_7D9F_41CD_D568E68ADA19.url = media/video_12C4C5FC_09DB_A571_419A_B1459EA79FB7_en.m3u8
+videolevel_94DB00FD_8569_7D9F_41B0_9D3E6212DFDB.url = media/video_12C4C5FC_09DB_A571_419A_B1459EA79FB7_en.mp4
+videolevel_94DB00FD_8569_7D9F_41B0_9D3E6212DFDB.posterURL = media/video_12C4C5FC_09DB_A571_419A_B1459EA79FB7_poster_en.jpg
+videolevel_94DB70FD_8569_7D9F_41CD_D568E68ADA19.posterURL = media/video_12C4C5FC_09DB_A571_419A_B1459EA79FB7_poster_en.jpg
+
+## Tour
+
+### Description
+
+### Title
+tour.name = WORLD BLOCKCHAIN CAVE
