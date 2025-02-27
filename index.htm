@@ -333,6 +333,73 @@
     </style>
     
 </head>
+<!-- GEMBOK DIGITAL -->
+<div id="kunciVIP" style="
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.9);
+    display: none;
+    z-index: 99999;
+    justify-content: center;
+    align-items: center;
+">
+    <div style="
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+    ">
+        <h3>🚪 Masuk Area VIP</h3>
+        <input 
+            type="password" 
+            id="passwordVIP" 
+            placeholder="Masukkan kode rahasia"
+            style="
+                margin: 10px;
+                padding: 8px;
+                width: 200px;
+            "
+        >
+        <button 
+            onclick="bukaGembok()"
+            style="
+                background: blue;
+                color: white;
+                border: none;
+                padding: 8px 20px;
+                border-radius: 5px;
+            "
+        >Buka</button>
+        <p id="pesanError" style="color: red; display: none;">Kode salah!</p>
+    </div>
+</div>
+
+<script>
+// KODE RAHASIA
+const KODE_RAHASIA = "VIP123"; // Ganti password ini
+
+function bukaGembok() {
+    const input = document.getElementById('passwordVIP').value;
+    if(input === KODE_RAHASIA) {
+        document.getElementById('kunciVIP').style.display = 'none';
+        window.location.hash = "media=4&loading=0"; // Ganti angka 5 dengan ID panorama VIP
+    } else {
+        document.getElementById('pesanError').style.display = 'block';
+    }
+}
+
+// DETECT KAMERA
+document.addEventListener('vtmediachange', function(event) {
+    const kameraSekarang = event.detail.media;
+    
+    // Jika kamera pindah ke ruang VIP (ID=5)
+    if(kameraSekarang == 4) { // Ganti angka 5 sesuai ID
+        document.getElementById('kunciVIP').style.display = 'flex';
+        window.location.hash = "media=1&loading=0"; // Kembali ke panorama 1
+    }
+});
+</script>
 <body>
     <div id="preloadContainer" class="fill-viewport"><div style="z-index: 4; position: absolute; left: 0%; top: 50%; width: 100.00%; height: 10.00%" ><div style="text-align:left; color:#000; "><DIV STYLE="text-align:center;font-size:2.2547914317925586vmin;"><SPAN STYLE="display:inline-block; letter-spacing:0vmin; white-space:pre-wrap;color:#777777;font-family:Arial, Helvetica, sans-serif;"><SPAN STYLE="color:#ff9900;font-size:2.25vmin;">WELCOME TO WORLD BLOCKCHAIN CHAIN CAVE</SPAN></SPAN></DIV></div></div></div>
     <div id="viewer" class="fill-viewport"></div>
