@@ -395,7 +395,7 @@ document.addEventListener('vtmediachange', function(event) {
 const kameraSekarang = event.detail.media;
 
 // Jika kamera pindah ke ruang VIP (ID=5)
-if(kameraSekarang == basecamp1) { // Ganti angka 5 sesuai ID
+if(kameraSekarang == 3) { // Ganti angka 5 sesuai ID
     document.getElementById('kunciVIP').style.display = 'flex';
     window.location.hash = "media=1&loading=0"; // Kembali ke panorama 1
 }
