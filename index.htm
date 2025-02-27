@@ -383,7 +383,7 @@ function bukaGembok() {
     const input = document.getElementById('passwordVIP').value;
     if(input === KODE_RAHASIA) {
         document.getElementById('kunciVIP').style.display = 'none';
-        window.location.hash = "media=4&loading=0"; // Ganti angka 5 dengan ID panorama VIP
+        window.location.hash = "media=basecamp1&loading=0"; // Ganti angka 5 dengan ID panorama VIP
     } else {
         document.getElementById('pesanError').style.display = 'block';
     }
@@ -394,7 +394,7 @@ document.addEventListener('vtmediachange', function(event) {
     const kameraSekarang = event.detail.media;
     
     // Jika kamera pindah ke ruang VIP (ID=5)
-    if(kameraSekarang == 4) { // Ganti angka 5 sesuai ID
+    if(kameraSekarang == basecamp1) { // Ganti angka 5 sesuai ID
         document.getElementById('kunciVIP').style.display = 'flex';
         window.location.hash = "media=1&loading=0"; // Kembali ke panorama 1
     }
